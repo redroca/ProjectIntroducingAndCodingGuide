@@ -1,0 +1,65 @@
+#pragma mark – Class properties
+
+#pragma mark – Class methods
+
+#pragma mark – Class instance methods
+
+@end
+
+#pragma mark - Class Delegate
+
+@protocol ClassNameDelegate <NSObject>
+
+#pragma mark – Class optional delegate(s)
+@optional
+
+#pragma mark – Class required delegate(s)
+@required
+
+@end
+
+
+
+
+
+// *.m files
+@interface ClassName()
+
+@end
+
+@implementation ClassName
+
+#pragma mark - Setters/Getters
+
+#pragma mark – Override properties
+
+#pragma mark – Class methods
+
+#pragma mark – Public methods
+
+#pragma mark – Private methods
+
+#pragma mark - Override super methods
+
+#pragma mark – Target action methods
+
+#pragma mark – Request service methods
+
+#pragma mark – Initialization & Memory management methods
+
+#pragma mark – View lifecycle
+
+#pragma mark – Delegate
+
+@end
+
+
+//Controllers
+
+//Cells
+
+//Views
+
+//API
+
+//Models
