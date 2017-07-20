@@ -8,6 +8,21 @@
 
 #import "AppDelegate.h"
 
+//Controllers
+#import "XXHomeViewController.h"
+#import "XXSecondViewController.h"
+#import "XXThirdViewController.h"
+#import "XXMineViewController.h"
+
+//Cells
+
+//Views
+
+//API
+
+//Models
+
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +32,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyWindow];
+    
     return YES;
 }
 

@@ -7,7 +7,6 @@
 //
 
 #import "CoreStore.h"
-@class UserBaseModel;
 
 @interface CoreStore (App)
 
@@ -24,5 +23,4 @@
 @property (nonatomic, copy)      NSString       *patrolAccessToken;
 @property (nonatomic, copy)      NSString       *patrolID;
 @property (nonatomic, copy)      NSString       *recentlyPhoneNum;
-@property (nonatomic, strong)    UserBaseModel      *userBaseModel;
 @end

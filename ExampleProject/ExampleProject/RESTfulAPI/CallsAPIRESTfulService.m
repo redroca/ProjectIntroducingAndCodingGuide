@@ -8,7 +8,6 @@
 
 #import "CallsAPIRESTfulService.h"
 #import "CallsAPIURL.h"
-#import "UserModel.h"
 
 static CallsAPIRESTfulService * _sharedSingleton = nil;
 static BOOL isFirstAccess = YES;
@@ -162,25 +161,6 @@ static BOOL isFirstAccess = YES;
                                      }else{
                                          
                                          completions(resultStatusInfo);
-                                     }
-                                 }];
-}
-
-- (void)getHistoryCallWithResultBlock:(void (^)(ServiceResultInfo *statusInfo, UserBaseModel *userModel))comletions
-{
-    [[RESTfulAPIWrapper sharedInstance] operation:OPERATION_GET
-                                      urlResource:URL_Get_CALL_REQUEST
-                                 actionCompletion:^(id responsedata, ServiceResultInfo *resultStatusInfo) {
-                                     
-                                     if (resultStatusInfo.finishStatus) {
-                                         if ([(NSDictionary *)responsedata allKeys].count) {
-                                             UserBaseModel *user = [UserBaseModel objectWithJSON:responsedata[@"caller"]];
-                                             comletions(resultStatusInfo, user);
-                                         } else {
-                                             comletions(resultStatusInfo, nil);
-                                         }
-                                     } else {
-                                         comletions(resultStatusInfo, nil);
                                      }
                                  }];
 }

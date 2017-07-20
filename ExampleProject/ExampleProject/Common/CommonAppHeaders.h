@@ -10,11 +10,7 @@
 #import "PodsHeaders.h"
 #import "AppConstants.h"
 
-#import "NotificationsName.h"
-#import "PatrolUINavigationController.h"
-#import "SocialShareSNS.h"
-
-#import "MCRecordManager.h"
+#import "XXUINavigationViewController.h"
 
 //addition category
 #import "UIColor+App.h"
@@ -22,11 +18,7 @@
 #import "CoreCache+App.h"
 #import "UIImageView+Extension.h"
 #import "UIImageView+Networking.h"
-#import "BaseViewController+NavigationButton.h"
-#import "UIViewController+MessageNotification.h"
-#import "PatrolUINavigationController+StatusBar.h"
 
-#import "MCAuthorizationManager.h"
 
 
 

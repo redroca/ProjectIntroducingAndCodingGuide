@@ -16,36 +16,24 @@
 		28770F381F1F441C002F80ED /* Home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28770EAA1F1F441B002F80ED /* Home.xcassets */; };
 		28770F391F1F441C002F80ED /* Login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28770EAB1F1F441B002F80ED /* Login.xcassets */; };
 		28770F3E1F1F441C002F80ED /* CallsAPIRESTfulService.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770EB31F1F441B002F80ED /* CallsAPIRESTfulService.m */; };
-		28770F3F1F1F441C002F80ED /* LoginAPIRESTfulService.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770EB61F1F441B002F80ED /* LoginAPIRESTfulService.m */; };
-		28770F431F1F441C002F80ED /* PatrolLogsRESTfulBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770EC21F1F441B002F80ED /* PatrolLogsRESTfulBaseService.m */; };
-		28770F441F1F441C002F80ED /* RecoveryPassWordAPIRESTfulService.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770EC41F1F441B002F80ED /* RecoveryPassWordAPIRESTfulService.m */; };
 		28770F451F1F441C002F80ED /* SingletonDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770EC71F1F441B002F80ED /* SingletonDemo.m */; };
-		28770F461F1F441C002F80ED /* AgoraRtcEngineWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770ECA1F1F441B002F80ED /* AgoraRtcEngineWrapper.m */; };
-		28770F471F1F441C002F80ED /* AliyunOSSWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770ECC1F1F441B002F80ED /* AliyunOSSWrapper.m */; };
-		28770FC71F1F4463002F80ED /* BaiduPanoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28770FAF1F1F4463002F80ED /* BaiduPanoSDK.framework */; };
-		28770FC81F1F4463002F80ED /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28770FB21F1F4463002F80ED /* TencentOpenAPI.framework */; };
-		28770FC91F1F4463002F80ED /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28770FB41F1F4463002F80ED /* libWeChatSDK.a */; };
-		28770FCA1F1F4463002F80ED /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28770FB51F1F4463002F80ED /* README.txt */; };
-		28770FCB1F1F4463002F80ED /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28770FBA1F1F4463002F80ED /* libWeiboSDK.a */; };
-		28770FCC1F1F4463002F80ED /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28770FC41F1F4463002F80ED /* WeiboSDK.bundle */; };
 		28770FCE1F1F4487002F80ED /* CodeStyle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28770FCD1F1F4487002F80ED /* CodeStyle.txt */; };
-		28770FE61F1F4782002F80ED /* XXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770FE41F1F4782002F80ED /* XXSecondViewController.m */; };
-		28770FE71F1F4782002F80ED /* XXSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28770FE51F1F4782002F80ED /* XXSecondViewController.xib */; };
-		28770FEB1F1F4793002F80ED /* XXThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770FE91F1F4793002F80ED /* XXThirdViewController.m */; };
-		28770FEC1F1F4793002F80ED /* XXThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28770FEA1F1F4793002F80ED /* XXThirdViewController.xib */; };
-		28770FF01F1F49B2002F80ED /* XXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770FEE1F1F49B1002F80ED /* XXMineViewController.m */; };
-		28770FF11F1F49B2002F80ED /* XXMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28770FEF1F1F49B2002F80ED /* XXMineViewController.xib */; };
 		28770FF81F1F4AD2002F80ED /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770FF71F1F4AD2002F80ED /* HomeModel.m */; };
 		28770FFB1F1F4AE1002F80ED /* SecondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28770FFA1F1F4AE1002F80ED /* SecondModel.m */; };
-		28771DB71F1F6215002F80ED /* UIImageView+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DB41F1F6215002F80ED /* UIImageView+Networking.m */; };
-		28771DB81F1F6215002F80ED /* UIViewController+PLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DB61F1F6215002F80ED /* UIViewController+PLExtension.m */; };
-		28771DBD1F1F6274002F80ED /* PatrolUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DBA1F1F6274002F80ED /* PatrolUINavigationController.m */; };
-		28771DBE1F1F6274002F80ED /* PatrolUINavigationController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DBC1F1F6274002F80ED /* PatrolUINavigationController+StatusBar.m */; };
 		28771DCA1F205762002F80ED /* CoreCache+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DC51F205762002F80ED /* CoreCache+App.m */; };
 		28771DCB1F205762002F80ED /* CoreStore+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DC71F205762002F80ED /* CoreStore+App.m */; };
 		28771DCC1F205762002F80ED /* UIColor+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DC91F205762002F80ED /* UIColor+App.m */; };
 		28771DD01F205C8B002F80ED /* XXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DCE1F205C8B002F80ED /* XXHomeViewController.m */; };
 		28771DD11F205C8B002F80ED /* XXHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28771DCF1F205C8B002F80ED /* XXHomeViewController.xib */; };
+		28771DD51F20A45E002F80ED /* XXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DD31F20A45E002F80ED /* XXSecondViewController.m */; };
+		28771DD61F20A45E002F80ED /* XXSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28771DD41F20A45E002F80ED /* XXSecondViewController.xib */; };
+		28771DDF1F20A4BA002F80ED /* XXThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DDD1F20A4BA002F80ED /* XXThirdViewController.m */; };
+		28771DE01F20A4BA002F80ED /* XXThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28771DDE1F20A4BA002F80ED /* XXThirdViewController.xib */; };
+		28771DE41F20A4CE002F80ED /* XXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DE21F20A4CE002F80ED /* XXMineViewController.m */; };
+		28771DE51F20A4CE002F80ED /* XXMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28771DE31F20A4CE002F80ED /* XXMineViewController.xib */; };
+		28771DEE1F20A5DE002F80ED /* XXUINavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DED1F20A5DE002F80ED /* XXUINavigationViewController.m */; };
+		28771DF31F20A659002F80ED /* UIImageView+Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DF01F20A659002F80ED /* UIImageView+Networking.m */; };
+		28771DF41F20A659002F80ED /* UIViewController+PLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28771DF21F20A659002F80ED /* UIViewController+PLExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,53 +51,11 @@
 		28770EB21F1F441B002F80ED /* CallsAPIRESTfulService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallsAPIRESTfulService.h; sourceTree = "<group>"; };
 		28770EB31F1F441B002F80ED /* CallsAPIRESTfulService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallsAPIRESTfulService.m; sourceTree = "<group>"; };
 		28770EB41F1F441B002F80ED /* CallsAPIURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallsAPIURL.h; sourceTree = "<group>"; };
-		28770EB51F1F441B002F80ED /* LoginAPIRESTfulService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAPIRESTfulService.h; sourceTree = "<group>"; };
-		28770EB61F1F441B002F80ED /* LoginAPIRESTfulService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAPIRESTfulService.m; sourceTree = "<group>"; };
-		28770EB71F1F441B002F80ED /* LoginAPIURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAPIURL.h; sourceTree = "<group>"; };
-		28770EC01F1F441B002F80ED /* PatrolLogsAPIURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatrolLogsAPIURL.h; sourceTree = "<group>"; };
-		28770EC11F1F441B002F80ED /* PatrolLogsRESTfulBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatrolLogsRESTfulBaseService.h; sourceTree = "<group>"; };
-		28770EC21F1F441B002F80ED /* PatrolLogsRESTfulBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatrolLogsRESTfulBaseService.m; sourceTree = "<group>"; };
-		28770EC31F1F441B002F80ED /* RecoveryPassWordAPIRESTfulService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecoveryPassWordAPIRESTfulService.h; sourceTree = "<group>"; };
-		28770EC41F1F441B002F80ED /* RecoveryPassWordAPIRESTfulService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecoveryPassWordAPIRESTfulService.m; sourceTree = "<group>"; };
-		28770EC51F1F441B002F80ED /* RecoveryPasswordAPIURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecoveryPasswordAPIURL.h; sourceTree = "<group>"; };
 		28770EC61F1F441B002F80ED /* SingletonDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonDemo.h; sourceTree = "<group>"; };
 		28770EC71F1F441B002F80ED /* SingletonDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonDemo.m; sourceTree = "<group>"; };
-		28770EC91F1F441B002F80ED /* AgoraRtcEngineWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraRtcEngineWrapper.h; sourceTree = "<group>"; };
-		28770ECA1F1F441B002F80ED /* AgoraRtcEngineWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgoraRtcEngineWrapper.m; sourceTree = "<group>"; };
-		28770ECB1F1F441B002F80ED /* AliyunOSSWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunOSSWrapper.h; sourceTree = "<group>"; };
-		28770ECC1F1F441B002F80ED /* AliyunOSSWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunOSSWrapper.m; sourceTree = "<group>"; };
-		28770FAF1F1F4463002F80ED /* BaiduPanoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduPanoSDK.framework; sourceTree = "<group>"; };
 		28770FB01F1F4463002F80ED /* LibsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibsHeader.h; sourceTree = "<group>"; };
-		28770FB21F1F4463002F80ED /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
-		28770FB41F1F4463002F80ED /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		28770FB51F1F4463002F80ED /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		28770FB61F1F4463002F80ED /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		28770FB71F1F4463002F80ED /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		28770FB81F1F4463002F80ED /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		28770FBA1F1F4463002F80ED /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
-		28770FBB1F1F4463002F80ED /* WBHttpRequest+WeiboGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboGame.h"; sourceTree = "<group>"; };
-		28770FBC1F1F4463002F80ED /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
-		28770FBD1F1F4463002F80ED /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
-		28770FBE1F1F4463002F80ED /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
-		28770FBF1F1F4463002F80ED /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
-		28770FC01F1F4463002F80ED /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
-		28770FC11F1F4463002F80ED /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
-		28770FC21F1F4463002F80ED /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
-		28770FC31F1F4463002F80ED /* WeiboSDK+Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WeiboSDK+Statistics.h"; sourceTree = "<group>"; };
-		28770FC41F1F4463002F80ED /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
-		28770FC51F1F4463002F80ED /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
-		28770FC61F1F4463002F80ED /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
 		28770FCD1F1F4487002F80ED /* CodeStyle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CodeStyle.txt; sourceTree = "<group>"; };
 		28770FCF1F1F448F002F80ED /* Patrol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Patrol.entitlements; sourceTree = "<group>"; };
-		28770FE31F1F4782002F80ED /* XXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXSecondViewController.h; sourceTree = "<group>"; };
-		28770FE41F1F4782002F80ED /* XXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXSecondViewController.m; sourceTree = "<group>"; };
-		28770FE51F1F4782002F80ED /* XXSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXSecondViewController.xib; sourceTree = "<group>"; };
-		28770FE81F1F4793002F80ED /* XXThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXThirdViewController.h; sourceTree = "<group>"; };
-		28770FE91F1F4793002F80ED /* XXThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXThirdViewController.m; sourceTree = "<group>"; };
-		28770FEA1F1F4793002F80ED /* XXThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXThirdViewController.xib; sourceTree = "<group>"; };
-		28770FED1F1F49B1002F80ED /* XXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMineViewController.h; sourceTree = "<group>"; };
-		28770FEE1F1F49B1002F80ED /* XXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMineViewController.m; sourceTree = "<group>"; };
-		28770FEF1F1F49B2002F80ED /* XXMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXMineViewController.xib; sourceTree = "<group>"; };
 		28770FF61F1F4AD2002F80ED /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		28770FF71F1F4AD2002F80ED /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		28770FF91F1F4AE1002F80ED /* SecondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondModel.h; sourceTree = "<group>"; };
@@ -117,14 +63,6 @@
 		287710001F1F6085002F80ED /* CommonAppHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAppHeaders.h; sourceTree = "<group>"; };
 		287710011F1F6085002F80ED /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
 		287710021F1F6085002F80ED /* PodsHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodsHeaders.h; sourceTree = "<group>"; };
-		28771DB31F1F6215002F80ED /* UIImageView+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Networking.h"; sourceTree = "<group>"; };
-		28771DB41F1F6215002F80ED /* UIImageView+Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Networking.m"; sourceTree = "<group>"; };
-		28771DB51F1F6215002F80ED /* UIViewController+PLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PLExtension.h"; sourceTree = "<group>"; };
-		28771DB61F1F6215002F80ED /* UIViewController+PLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PLExtension.m"; sourceTree = "<group>"; };
-		28771DB91F1F6274002F80ED /* PatrolUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatrolUINavigationController.h; sourceTree = "<group>"; };
-		28771DBA1F1F6274002F80ED /* PatrolUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatrolUINavigationController.m; sourceTree = "<group>"; };
-		28771DBB1F1F6274002F80ED /* PatrolUINavigationController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PatrolUINavigationController+StatusBar.h"; sourceTree = "<group>"; };
-		28771DBC1F1F6274002F80ED /* PatrolUINavigationController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PatrolUINavigationController+StatusBar.m"; sourceTree = "<group>"; };
 		28771DC41F205762002F80ED /* CoreCache+App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreCache+App.h"; path = "ExampleProject/Common/Additions/CoreCache+App.h"; sourceTree = SOURCE_ROOT; };
 		28771DC51F205762002F80ED /* CoreCache+App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CoreCache+App.m"; path = "ExampleProject/Common/Additions/CoreCache+App.m"; sourceTree = SOURCE_ROOT; };
 		28771DC61F205762002F80ED /* CoreStore+App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoreStore+App.h"; path = "ExampleProject/Common/Additions/CoreStore+App.h"; sourceTree = SOURCE_ROOT; };
@@ -134,6 +72,21 @@
 		28771DCD1F205C8B002F80ED /* XXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXHomeViewController.h; path = ExampleProject/Controller/XXHomeViewController.h; sourceTree = SOURCE_ROOT; };
 		28771DCE1F205C8B002F80ED /* XXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXHomeViewController.m; path = ExampleProject/Controller/XXHomeViewController.m; sourceTree = SOURCE_ROOT; };
 		28771DCF1F205C8B002F80ED /* XXHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XXHomeViewController.xib; path = ExampleProject/Controller/XXHomeViewController.xib; sourceTree = SOURCE_ROOT; };
+		28771DD21F20A45E002F80ED /* XXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXSecondViewController.h; path = ExampleProject/Controller/XXSecondViewController.h; sourceTree = SOURCE_ROOT; };
+		28771DD31F20A45E002F80ED /* XXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXSecondViewController.m; path = ExampleProject/Controller/XXSecondViewController.m; sourceTree = SOURCE_ROOT; };
+		28771DD41F20A45E002F80ED /* XXSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XXSecondViewController.xib; path = ExampleProject/Controller/XXSecondViewController.xib; sourceTree = SOURCE_ROOT; };
+		28771DDC1F20A4BA002F80ED /* XXThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXThirdViewController.h; path = ExampleProject/Controller/XXThirdViewController.h; sourceTree = SOURCE_ROOT; };
+		28771DDD1F20A4BA002F80ED /* XXThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXThirdViewController.m; path = ExampleProject/Controller/XXThirdViewController.m; sourceTree = SOURCE_ROOT; };
+		28771DDE1F20A4BA002F80ED /* XXThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XXThirdViewController.xib; path = ExampleProject/Controller/XXThirdViewController.xib; sourceTree = SOURCE_ROOT; };
+		28771DE11F20A4CE002F80ED /* XXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXMineViewController.h; path = ExampleProject/Controller/XXMineViewController.h; sourceTree = SOURCE_ROOT; };
+		28771DE21F20A4CE002F80ED /* XXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXMineViewController.m; path = ExampleProject/Controller/XXMineViewController.m; sourceTree = SOURCE_ROOT; };
+		28771DE31F20A4CE002F80ED /* XXMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = XXMineViewController.xib; path = ExampleProject/Controller/XXMineViewController.xib; sourceTree = SOURCE_ROOT; };
+		28771DEC1F20A5DE002F80ED /* XXUINavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XXUINavigationViewController.h; path = ExampleProject/Common/SubClasses/XXUINavigationViewController.h; sourceTree = SOURCE_ROOT; };
+		28771DED1F20A5DE002F80ED /* XXUINavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XXUINavigationViewController.m; path = ExampleProject/Common/SubClasses/XXUINavigationViewController.m; sourceTree = SOURCE_ROOT; };
+		28771DEF1F20A659002F80ED /* UIImageView+Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Networking.h"; path = "ExampleProject/Common/Categories/UIImageView+Networking.h"; sourceTree = SOURCE_ROOT; };
+		28771DF01F20A659002F80ED /* UIImageView+Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Networking.m"; path = "ExampleProject/Common/Categories/UIImageView+Networking.m"; sourceTree = SOURCE_ROOT; };
+		28771DF11F20A659002F80ED /* UIViewController+PLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PLExtension.h"; path = "ExampleProject/Common/Categories/UIViewController+PLExtension.h"; sourceTree = SOURCE_ROOT; };
+		28771DF21F20A659002F80ED /* UIViewController+PLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PLExtension.m"; path = "ExampleProject/Common/Categories/UIViewController+PLExtension.m"; sourceTree = SOURCE_ROOT; };
 		DADF0916764BAF7CDF55E9B8 /* Pods-ExampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleProject/Pods-ExampleProject.debug.xcconfig"; sourceTree = "<group>"; };
 		DDEAF80A5398156E0074AEF7 /* libPods-ExampleProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1472FE6917301F6B5110736 /* Pods-ExampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleProject/Pods-ExampleProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,10 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28770FC71F1F4463002F80ED /* BaiduPanoSDK.framework in Frameworks */,
-				28770FC81F1F4463002F80ED /* TencentOpenAPI.framework in Frameworks */,
-				28770FC91F1F4463002F80ED /* libWeChatSDK.a in Frameworks */,
-				28770FCB1F1F4463002F80ED /* libWeiboSDK.a in Frameworks */,
 				0F64B59EC97C35E363660713 /* libPods-ExampleProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +216,6 @@
 				28770EC61F1F441B002F80ED /* SingletonDemo.h */,
 				28770EC71F1F441B002F80ED /* SingletonDemo.m */,
 				28770FFC1F1F4C81002F80ED /* Calls */,
-				28770FFD1F1F5FC8002F80ED /* Login */,
-				28770FFE1F1F5FD3002F80ED /* PatrolLogs */,
-				28770FFF1F1F5FDB002F80ED /* RecoveryPwd */,
 			);
 			path = RESTfulAPI;
 			sourceTree = "<group>";
@@ -277,10 +223,6 @@
 		28770EC81F1F441B002F80ED /* VendorAPI */ = {
 			isa = PBXGroup;
 			children = (
-				28770EC91F1F441B002F80ED /* AgoraRtcEngineWrapper.h */,
-				28770ECA1F1F441B002F80ED /* AgoraRtcEngineWrapper.m */,
-				28770ECB1F1F441B002F80ED /* AliyunOSSWrapper.h */,
-				28770ECC1F1F441B002F80ED /* AliyunOSSWrapper.m */,
 			);
 			path = VendorAPI;
 			sourceTree = "<group>";
@@ -300,61 +242,9 @@
 			isa = PBXGroup;
 			children = (
 				28770FB01F1F4463002F80ED /* LibsHeader.h */,
-				28770FAE1F1F4463002F80ED /* BMapPanoSDK */,
-				28770FB11F1F4463002F80ED /* QQSDK */,
-				28770FB31F1F4463002F80ED /* WeChatSDK */,
-				28770FB91F1F4463002F80ED /* WeiBoSDK */,
 			);
 			path = Libs;
 			sourceTree = SOURCE_ROOT;
-		};
-		28770FAE1F1F4463002F80ED /* BMapPanoSDK */ = {
-			isa = PBXGroup;
-			children = (
-				28770FAF1F1F4463002F80ED /* BaiduPanoSDK.framework */,
-			);
-			path = BMapPanoSDK;
-			sourceTree = "<group>";
-		};
-		28770FB11F1F4463002F80ED /* QQSDK */ = {
-			isa = PBXGroup;
-			children = (
-				28770FB21F1F4463002F80ED /* TencentOpenAPI.framework */,
-			);
-			path = QQSDK;
-			sourceTree = "<group>";
-		};
-		28770FB31F1F4463002F80ED /* WeChatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				28770FB41F1F4463002F80ED /* libWeChatSDK.a */,
-				28770FB51F1F4463002F80ED /* README.txt */,
-				28770FB61F1F4463002F80ED /* WechatAuthSDK.h */,
-				28770FB71F1F4463002F80ED /* WXApi.h */,
-				28770FB81F1F4463002F80ED /* WXApiObject.h */,
-			);
-			path = WeChatSDK;
-			sourceTree = "<group>";
-		};
-		28770FB91F1F4463002F80ED /* WeiBoSDK */ = {
-			isa = PBXGroup;
-			children = (
-				28770FBA1F1F4463002F80ED /* libWeiboSDK.a */,
-				28770FBB1F1F4463002F80ED /* WBHttpRequest+WeiboGame.h */,
-				28770FBC1F1F4463002F80ED /* WBHttpRequest+WeiboShare.h */,
-				28770FBD1F1F4463002F80ED /* WBHttpRequest+WeiboToken.h */,
-				28770FBE1F1F4463002F80ED /* WBHttpRequest+WeiboUser.h */,
-				28770FBF1F1F4463002F80ED /* WBHttpRequest.h */,
-				28770FC01F1F4463002F80ED /* WBSDKBasicButton.h */,
-				28770FC11F1F4463002F80ED /* WBSDKCommentButton.h */,
-				28770FC21F1F4463002F80ED /* WBSDKRelationshipButton.h */,
-				28770FC31F1F4463002F80ED /* WeiboSDK+Statistics.h */,
-				28770FC41F1F4463002F80ED /* WeiboSDK.bundle */,
-				28770FC51F1F4463002F80ED /* WeiboSDK.h */,
-				28770FC61F1F4463002F80ED /* WeiboUser.h */,
-			);
-			path = WeiBoSDK;
-			sourceTree = "<group>";
 		};
 		28770FD01F1F458F002F80ED /* Home */ = {
 			isa = PBXGroup;
@@ -370,9 +260,9 @@
 		28770FD11F1F4598002F80ED /* Second */ = {
 			isa = PBXGroup;
 			children = (
-				28770FE31F1F4782002F80ED /* XXSecondViewController.h */,
-				28770FE41F1F4782002F80ED /* XXSecondViewController.m */,
-				28770FE51F1F4782002F80ED /* XXSecondViewController.xib */,
+				28771DD21F20A45E002F80ED /* XXSecondViewController.h */,
+				28771DD31F20A45E002F80ED /* XXSecondViewController.m */,
+				28771DD41F20A45E002F80ED /* XXSecondViewController.xib */,
 			);
 			name = Second;
 			path = ../Common;
@@ -381,9 +271,9 @@
 		28770FD21F1F45C2002F80ED /* Third */ = {
 			isa = PBXGroup;
 			children = (
-				28770FE81F1F4793002F80ED /* XXThirdViewController.h */,
-				28770FE91F1F4793002F80ED /* XXThirdViewController.m */,
-				28770FEA1F1F4793002F80ED /* XXThirdViewController.xib */,
+				28771DDC1F20A4BA002F80ED /* XXThirdViewController.h */,
+				28771DDD1F20A4BA002F80ED /* XXThirdViewController.m */,
+				28771DDE1F20A4BA002F80ED /* XXThirdViewController.xib */,
 			);
 			name = Third;
 			path = ../Common;
@@ -392,9 +282,9 @@
 		28770FD31F1F45D0002F80ED /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				28770FED1F1F49B1002F80ED /* XXMineViewController.h */,
-				28770FEE1F1F49B1002F80ED /* XXMineViewController.m */,
-				28770FEF1F1F49B2002F80ED /* XXMineViewController.xib */,
+				28771DE11F20A4CE002F80ED /* XXMineViewController.h */,
+				28771DE21F20A4CE002F80ED /* XXMineViewController.m */,
+				28771DE31F20A4CE002F80ED /* XXMineViewController.xib */,
 			);
 			name = Mine;
 			path = ../Common;
@@ -442,36 +332,6 @@
 			name = Calls;
 			sourceTree = "<group>";
 		};
-		28770FFD1F1F5FC8002F80ED /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				28770EB71F1F441B002F80ED /* LoginAPIURL.h */,
-				28770EB51F1F441B002F80ED /* LoginAPIRESTfulService.h */,
-				28770EB61F1F441B002F80ED /* LoginAPIRESTfulService.m */,
-			);
-			name = Login;
-			sourceTree = "<group>";
-		};
-		28770FFE1F1F5FD3002F80ED /* PatrolLogs */ = {
-			isa = PBXGroup;
-			children = (
-				28770EC01F1F441B002F80ED /* PatrolLogsAPIURL.h */,
-				28770EC11F1F441B002F80ED /* PatrolLogsRESTfulBaseService.h */,
-				28770EC21F1F441B002F80ED /* PatrolLogsRESTfulBaseService.m */,
-			);
-			name = PatrolLogs;
-			sourceTree = "<group>";
-		};
-		28770FFF1F1F5FDB002F80ED /* RecoveryPwd */ = {
-			isa = PBXGroup;
-			children = (
-				28770EC51F1F441B002F80ED /* RecoveryPasswordAPIURL.h */,
-				28770EC31F1F441B002F80ED /* RecoveryPassWordAPIRESTfulService.h */,
-				28770EC41F1F441B002F80ED /* RecoveryPassWordAPIRESTfulService.m */,
-			);
-			name = RecoveryPwd;
-			sourceTree = "<group>";
-		};
 		28771D9F1F1F615B002F80ED /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -503,10 +363,10 @@
 		28771DA51F1F61A3002F80ED /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				28771DB31F1F6215002F80ED /* UIImageView+Networking.h */,
-				28771DB41F1F6215002F80ED /* UIImageView+Networking.m */,
-				28771DB51F1F6215002F80ED /* UIViewController+PLExtension.h */,
-				28771DB61F1F6215002F80ED /* UIViewController+PLExtension.m */,
+				28771DEF1F20A659002F80ED /* UIImageView+Networking.h */,
+				28771DF01F20A659002F80ED /* UIImageView+Networking.m */,
+				28771DF11F20A659002F80ED /* UIViewController+PLExtension.h */,
+				28771DF21F20A659002F80ED /* UIViewController+PLExtension.m */,
 			);
 			name = Categories;
 			path = Patrol/Common/Categories;
@@ -515,10 +375,8 @@
 		28771DA81F1F61A3002F80ED /* SubClasses */ = {
 			isa = PBXGroup;
 			children = (
-				28771DB91F1F6274002F80ED /* PatrolUINavigationController.h */,
-				28771DBA1F1F6274002F80ED /* PatrolUINavigationController.m */,
-				28771DBB1F1F6274002F80ED /* PatrolUINavigationController+StatusBar.h */,
-				28771DBC1F1F6274002F80ED /* PatrolUINavigationController+StatusBar.m */,
+				28771DEC1F20A5DE002F80ED /* XXUINavigationViewController.h */,
+				28771DED1F20A5DE002F80ED /* XXUINavigationViewController.m */,
 			);
 			name = SubClasses;
 			path = Patrol/Common/SubClasses;
@@ -623,17 +481,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				28770F381F1F441C002F80ED /* Home.xcassets in Resources */,
-				28770FF11F1F49B2002F80ED /* XXMineViewController.xib in Resources */,
 				28771DD11F205C8B002F80ED /* XXHomeViewController.xib in Resources */,
 				28770F371F1F441C002F80ED /* Common.xcassets in Resources */,
-				28770FEC1F1F4793002F80ED /* XXThirdViewController.xib in Resources */,
 				28770F391F1F441C002F80ED /* Login.xcassets in Resources */,
-				28770FCC1F1F4463002F80ED /* WeiboSDK.bundle in Resources */,
+				28771DD61F20A45E002F80ED /* XXSecondViewController.xib in Resources */,
 				28770E5E1F1F4103002F80ED /* LaunchScreen.storyboard in Resources */,
+				28771DE01F20A4BA002F80ED /* XXThirdViewController.xib in Resources */,
 				28770F351F1F441C002F80ED /* App.xcassets in Resources */,
-				28770FCA1F1F4463002F80ED /* README.txt in Resources */,
+				28771DE51F20A4CE002F80ED /* XXMineViewController.xib in Resources */,
 				28770FCE1F1F4487002F80ED /* CodeStyle.txt in Resources */,
-				28770FE71F1F4782002F80ED /* XXSecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,25 +551,19 @@
 				28770FFB1F1F4AE1002F80ED /* SecondModel.m in Sources */,
 				28770F3E1F1F441C002F80ED /* CallsAPIRESTfulService.m in Sources */,
 				28770E531F1F4103002F80ED /* AppDelegate.m in Sources */,
-				28770F3F1F1F441C002F80ED /* LoginAPIRESTfulService.m in Sources */,
-				28771DBD1F1F6274002F80ED /* PatrolUINavigationController.m in Sources */,
-				28770FEB1F1F4793002F80ED /* XXThirdViewController.m in Sources */,
-				28770FE61F1F4782002F80ED /* XXSecondViewController.m in Sources */,
-				28770FF01F1F49B2002F80ED /* XXMineViewController.m in Sources */,
+				28771DDF1F20A4BA002F80ED /* XXThirdViewController.m in Sources */,
+				28771DF41F20A659002F80ED /* UIViewController+PLExtension.m in Sources */,
 				28771DCC1F205762002F80ED /* UIColor+App.m in Sources */,
-				28771DB71F1F6215002F80ED /* UIImageView+Networking.m in Sources */,
+				28771DF31F20A659002F80ED /* UIImageView+Networking.m in Sources */,
 				28770F451F1F441C002F80ED /* SingletonDemo.m in Sources */,
 				28771DCA1F205762002F80ED /* CoreCache+App.m in Sources */,
-				28770F431F1F441C002F80ED /* PatrolLogsRESTfulBaseService.m in Sources */,
-				28770F441F1F441C002F80ED /* RecoveryPassWordAPIRESTfulService.m in Sources */,
-				28771DB81F1F6215002F80ED /* UIViewController+PLExtension.m in Sources */,
-				28770F461F1F441C002F80ED /* AgoraRtcEngineWrapper.m in Sources */,
+				28771DD51F20A45E002F80ED /* XXSecondViewController.m in Sources */,
 				28771DCB1F205762002F80ED /* CoreStore+App.m in Sources */,
-				28771DBE1F1F6274002F80ED /* PatrolUINavigationController+StatusBar.m in Sources */,
 				28771DD01F205C8B002F80ED /* XXHomeViewController.m in Sources */,
 				28770E501F1F4103002F80ED /* main.m in Sources */,
+				28771DE41F20A4CE002F80ED /* XXMineViewController.m in Sources */,
+				28771DEE1F20A5DE002F80ED /* XXUINavigationViewController.m in Sources */,
 				28770FF81F1F4AD2002F80ED /* HomeModel.m in Sources */,
-				28770F471F1F441C002F80ED /* AliyunOSSWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

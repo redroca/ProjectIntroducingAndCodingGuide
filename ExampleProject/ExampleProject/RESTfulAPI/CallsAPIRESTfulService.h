@@ -30,6 +30,4 @@ static NSUInteger const callType_audioCall = 1;
 ///rejectCall
 - (void)rejectCallWithCallerID:(NSString *)caller resultBlock:(void (^)(ServiceResultInfo * statusInfo))completions;
 
-///获取最后一条通话请求
-- (void)getHistoryCallWithResultBlock:(void (^)(ServiceResultInfo *statusInfo, UserBaseModel *userModel))comletions;
 @end

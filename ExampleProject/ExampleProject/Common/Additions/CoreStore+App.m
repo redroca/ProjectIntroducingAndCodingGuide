@@ -8,7 +8,6 @@
 
 #import "CoreStore+App.h"
 #import "CommonAppHeaders.h"
-#import "UserModel.h"
 
 @implementation CoreStore (App)
 /////////////////////////////get///////////////////////////////////
@@ -34,10 +33,6 @@
     return [self stringDataForKey:APP_RECENTLY_PHONENUMBER];
 }
 
-- (UserBaseModel *)userBaseModel{
-    NSString *string = [self stringDataForKey:APP_USER_BASE_INFO];
-    return [UserBaseModel objectWithJSON:string];
-}
 /////////////////////////////set///////////////////////////////////
 
 - (void)setIsLogin:(BOOL)isLogin{
@@ -59,10 +54,6 @@
 
 - (void)setRecentlyPhoneNum:(NSString *)recentlyPhoneNum{
     [self setStringData:recentlyPhoneNum forKey:APP_RECENTLY_PHONENUMBER];
-}
-
-- (void)setUserBaseModel:(UserBaseModel *)userBaseModel{
-    [self setStringData:[userBaseModel getJSONString] forKey:APP_USER_BASE_INFO];
 }
 
 @end
