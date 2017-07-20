@@ -8,9 +8,7 @@
 
 ## iOS 工程文件结构（以ExampleProject项目为例）
 
-![屏幕快照 2017-07-20 上午9.57.36](/Users/hades/Desktop/ExampleProject文件/屏幕快照 2017-07-20 上午9.57.36.png)
-
-
+![1](http://otdtbznd1.bkt.clouddn.com/1.png)
 
 #### 一级目录
 
@@ -28,7 +26,7 @@
 
 ## iOS 项目结构
 
- ![屏幕快照 2017-07-20 上午10.59.06](/Users/hades/Desktop/屏幕快照 2017-07-20 上午10.59.06.png)
+ ![2](http://otdtbznd1.bkt.clouddn.com/2.png)
 
 ​	整个项目分为两大块，ExampleProject和Pods文件夹。ExampleProject文件夹是我们工程创建时生成的，Pods是第三方库管理工具生成的。下面对这两大块进行说明。
 
@@ -36,7 +34,7 @@
 
 我们主要看名为ExampleProject文件下所包含的内容，这是整个项目的核心内容。如下图
 
-![屏幕快照 2017-07-20 上午11.06.35](/Users/hades/Desktop/屏幕快照 2017-07-20 上午11.06.35.png)
+![3](http://otdtbznd1.bkt.clouddn.com/3.png)
 
 
 
@@ -44,7 +42,7 @@
 
 其内部结构如下图 	
 
-![屏幕快照 2017-07-20 上午11.13.54](/Users/hades/Desktop/屏幕快照 2017-07-20 上午11.13.54.png)
+![4](http://otdtbznd1.bkt.clouddn.com/4.png)
 
 * CommonAppHeaders.h：存放项目中所用到类的头文件。
 
@@ -81,7 +79,7 @@
 
 注：在创建Controllers时，需在命名每个类时加上工程前缀。可根据需要继承相关的controller，简单的controller可继承BaseUIViewController，列表型的可继承BaseTableViewController，若带有刷新可继承BaseRefreshTableViewController等。
 
-​	![屏幕快照 2017-07-20 上午11.35.49](/Users/hades/Desktop/屏幕快照 2017-07-20 上午11.35.49.png)
+​	![5](http://otdtbznd1.bkt.clouddn.com/5.png)
 
 
 
@@ -101,7 +99,7 @@ Model需要继承ModelBaseClass。
 
 ##### RESTfulAPI：处理所有跟网络相关的请求操作，结构如下图。
 
-​	![屏幕快照 2017-07-20 上午11.42.49](/Users/hades/Desktop/屏幕快照 2017-07-20 上午11.42.49.png)
+​	![6](http://otdtbznd1.bkt.clouddn.com/6.png)
 
 * BaseAPIURL.h：定义全局网络请求域名，包括LOCAL_DEVELOPMENT（本地）、TEST（测试）和PRODUCTION_RELEASE（生产），根据需要设置相应的环境。
 
@@ -120,7 +118,7 @@ Model需要继承ModelBaseClass。
 
 用于存放第三方库（用于非cocoapods导入的库）。如下图
 
-​	 ![屏幕快照 2017-07-20 上午11.43.02](/Users/hades/Desktop/屏幕快照 2017-07-20 上午11.43.02.png)
+​	 ![7](http://otdtbznd1.bkt.clouddn.com/7.png)
 
 libHeaders.h用于导入所有Libs中第三方的头文件。
 
@@ -130,7 +128,7 @@ libHeaders.h用于导入所有Libs中第三方的头文件。
 
 创建工程时自动创建的，一般我们会将除以上文件的其他文件放在这里。如plist、main.m等。如下图
 
-​	 ![屏幕快照 2017-07-20 上午11.43.09](/Users/hades/Desktop/屏幕快照 2017-07-20 上午11.43.09.png)
+​	 ![8](http://otdtbznd1.bkt.clouddn.com/8.png)
 
 * CodeStyle.text：对代码规范及标注进行说明。
 
@@ -148,7 +146,9 @@ libHeaders.h用于导入所有Libs中第三方的头文件。
 
 
 
-## M4CoreFoundation库 ![屏幕快照 2017-07-20 上午9.59.28](/Users/hades/Desktop/ExampleProject文件/屏幕快照 2017-07-20 上午9.59.28.png)
+## M4CoreFoundation库 
+
+![Alt text](http://otdtbznd1.bkt.clouddn.com/9.png)
 
 M4CoreFoundation主要按照上图进行分类，包括M4CoreFoundation.h、BaseClass、Category、Foundation、Macros、Networking、Notifications、SNS、UIKit、Utility、ViewControllers。
 
